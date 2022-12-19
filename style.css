@@ -1,0 +1,148 @@
+:root {
+	--cream: #F3EAE3;
+	--dark-cyan: #3C8067;
+	--very-dark-blue: #1C232B;
+	--dark-grayish-blue: #6C7289;
+	--white: #FFFFFF;
+	--gray-font-color: #b0b2bc;
+	--green-font-color: #3e8168;
+}
+
+body {
+	font-size: 14px;
+	background: var(--cream);
+}
+
+.container_0 {
+	display: flex;
+   	justify-content: center;
+   	height: 97vh;
+   	align-items: center;
+}
+
+@media (max-width: 750px) {
+	.container_0 {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.item_1 {
+	width: 300px;
+	height: 450px;
+	border-radius: 15px 0px 0px 15px;
+}
+
+@media (max-width: 750px) {
+	.item_1 {
+		width: 300px;
+		height: 200px;
+		border-radius: 15px 15px 0px 0px;
+	}
+}
+
+.imagem {
+	align-items: left;
+	width: 300px;
+	border-radius: 15px 0px 0px 15px;
+}
+
+@media (max-width: 750px) {
+	.imagem {
+		width: 300px;
+		height: 200px;
+		border-radius: 15px 15px 0px 0px;
+	}
+}
+
+.item_2 {
+	width: 240px;
+	height: 450px;
+	background: var(--white);
+	border-radius: 0px 15px 15px 0px;
+	flex-direction: column;
+	padding: 0px 30px;
+}
+
+@media (max-width: 750px) {
+	.item_2 {
+		background: var(--white);
+		flex-direction: column;
+		border-radius: 0px 0px 15px 15px;
+		height: 330px;
+	}
+}
+
+.container_1 {
+	font-family: 'Montserrat', sans-serif;
+	color: var(--gray-font-color);
+}
+
+@media (max-width: 750px) {
+	.container_1 {
+		font-size: 11px;
+	}
+}
+
+.container_2 {
+	font-family: 'Fraunces', serif;
+	font-size: 33px;
+}
+
+@media (max-width: 750px) {
+	.container_2 {
+		font-size: 25px;
+	}
+}
+
+.container_3 {
+	font-family: 'Montserrat', sans-serif;
+	color: var(--gray-font-color);
+}
+
+@media (max-width: 750px){
+	.container_3 {
+		font-size: 11px;
+	}
+}
+
+.container_4 {
+	font-family: 'Fraunces', serif;
+	font-size: 33px;
+	color: var(--green-font-color);
+	background: var(--white);
+	margin: 0px 20px 0px 0px;
+}
+
+.container_5 {
+	background: var(--white);
+	text-decoration: line-through;
+	color: var(--gray-font-color);
+}
+
+.prices {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.button_add {
+	font-family: 'Montserrat', sans-serif;
+	background-color: var(--green-font-color);
+	padding: 10px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--white);
+	height: 20px;
+	width: 90%;
+}
+
+.icon_cart {
+	margin: 0px 10px 0px 0px;
+}
+
+.link {
+	text-decoration: none;
+}
